@@ -73,8 +73,27 @@ ul {
   align-items: center;
   margin-left: 10px; 
 } 
+
 @media (min-width:718px) {
   .center {
     display: flex;
   }
+}
+
+.buttonpsc{
+  background-color: #4CAF50;
+  font-size: 50px;
+  border-style: hidden;
+  border-radius: 12px;
+  padding: 12px 28px;
+  
+}
+
+.buttonpsc:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.buttonpsc {
+  transition-duration: 0.4s;
 }
