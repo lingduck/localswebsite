@@ -50,6 +50,8 @@ ul {
   }
 
 #paysafe {
+  display: flex;
+  flex-direction: column;
   color: black;
   padding: 20px;
   text-align: center;
@@ -58,12 +60,21 @@ ul {
 } 
 
 .center {
-  display: block;
-  margin-left: auto;
-  width: 20%;
+  display: none;
+  width: 300px;
+  right: 0;
+  top: 260px;
+  position: absolute;
 }
 
 .paysafe1 { 
-  margin-top: -500px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 10px; 
 } 
+@media (min-width:718px) {
+  .center {
+    display: flex;
+  }
+}
