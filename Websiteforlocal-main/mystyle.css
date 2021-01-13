@@ -51,8 +51,19 @@ ul {
 
 #paysafe {
   color: black;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica,;
+} 
+
+.center {
+  display: block;
+  margin-left: auto;
+  width: 20%;
+}
+
+.paysafe1 { 
+  margin-top: -500px; 
+  margin-left: 10px; 
 } 
